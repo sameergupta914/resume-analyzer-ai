@@ -1,0 +1,11 @@
+streamlit
+spacy>=3.0.0
+scikit-learn>=0.24 # For TF-IDF and cosine similarity
+pandas # Generally useful with Streamlit, was in old App.py
+Pillow # For PIL.Image, used for logo
+python-docx # For reading .docx resumes
+pdfminer.six # For reading .pdf resumes
+plotly>=5.0.0 # For charts
+
+# spaCy model, pinning version for reproducibility
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
